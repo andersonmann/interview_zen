@@ -12,9 +12,10 @@ Consulte as instruções abaixo para saber como baixar e executar o projeto.
 
 ## Configuração do repositório
 
-- Certifique-se de ter as seguintes dependências instaladas na máquina
+- Certifique-se de ter as seguintes dependências instaladas e configuradas na máquina
   - Java >= 17
   - Maven >= 3.1+
+  - Variáveis de ambiente JAVA E MAVEN (PS: caso não possua, os testes deverão ser executados via IDE)
   
 - Clone o repositório
 - Navegue até a raiz do diretório  do projeto
@@ -164,7 +165,7 @@ do projeto.
 * [TestNG](https://testng.org/doc/documentation-main.html/) - Framework de testes
 * [MAVEN](https://maven.apache.org/) - Gerenciador de dependências e build
 * [JAVA](https://www.oracle.com/br/java/technologies/downloads/#java17) - Linguagem de programação
-* [SonarLint](https://www.sonarsource.com/knowledge/languages/java/) - Lint
+* [SonarLint](https://www.sonarsource.com/knowledge/languages/java/) - Linter
 * [SonarQube](https://www.sonarsource.com/products/sonarqube/) - Ferramenta de DAST e SAST
 
 ---
